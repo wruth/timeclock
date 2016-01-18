@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		770B37ED0679A11B001EADE2 /* TimeClock_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* TimeClock_DataModel.xcdatamodel */; };
+		77C8280E06725ACE000B614F /* TimeClock_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* TimeClock_AppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9D0CEBC8111621C500F60B34 /* JumpIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 9D0CEBC7111621C500F60B34 /* JumpIcon.tif */; };
+		9D146A1511303B5C00975BFC /* insertIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D146A1411303B5C00975BFC /* insertIcon.png */; };
+		9D17114C111DCF310094BDF6 /* DeleteKeyResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D17114B111DCF310094BDF6 /* DeleteKeyResponder.m */; };
+		9D6854760F43CC8A00462F1F /* TasksWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6854750F43CC8A00462F1F /* TasksWindowController.m */; };
+		9D6855990F47562100462F1F /* TimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6855980F47562100462F1F /* TimeStamp.m */; };
+		9D8963B411E29C4200B205CF /* ReloadIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8963B311E29C4200B205CF /* ReloadIcon.png */; };
+		9D90447A0F2E144900AC6298 /* Tasks.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9044790F2E144900AC6298 /* Tasks.xib */; };
+		9D9313E80F6D569F00C5CC3F /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9313E50F6D569F00C5CC3F /* Project.m */; };
+		9D9313E90F6D569F00C5CC3F /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9313E70F6D569F00C5CC3F /* Task.m */; };
+		9D9313EF0F6D57B100C5CC3F /* AbstractTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9313EE0F6D57B100C5CC3F /* AbstractTask.m */; };
+		9D9316950F755B1700C5CC3F /* ReportTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9316940F755B1700C5CC3F /* ReportTreeNode.m */; };
+		9DA790B90F50856900328525 /* AdjustTimeStampController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA790B80F50856900328525 /* AdjustTimeStampController.m */; };
+		9DB1721F0F7699E000A3AD3B /* ManagedObjectContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1721E0F7699E000A3AD3B /* ManagedObjectContextManager.m */; };
+		9DB175080F7C601000A3AD3B /* DurationFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB175070F7C601000A3AD3B /* DurationFormatter.m */; };
+		9DCC27D210EFC1AF0034DFDE /* DayDetailsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC27D110EFC1AF0034DFDE /* DayDetailsWindowController.m */; };
+		9DCC27D710EFCED00034DFDE /* DayDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC27D610EFCED00034DFDE /* DayDetails.xib */; };
+		9DD2E7130F56553300DF5443 /* Report.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD2E7120F56553300DF5443 /* Report.xib */; };
+		9DD2E81E0F592BB500DF5443 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD2E81D0F592BB500DF5443 /* AppController.m */; };
+		9DD2E9280F59C70300DF5443 /* ReportWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD2E9270F59C70300DF5443 /* ReportWindowController.m */; };
+		9DF71CB510F432A0002BCFCB /* TB_Run.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9DF71CB310F432A0002BCFCB /* TB_Run.tiff */; };
+		9DF71CB610F432A0002BCFCB /* TB_Stop.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9DF71CB410F432A0002BCFCB /* TB_Stop.tiff */; };
+		9DFE00201C4C716700C01B35 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE001F1C4C716700C01B35 /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TimeClock_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeClock_Prefix.pch; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* TimeClock_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = TimeClock_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* TimeClock_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeClock_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* TimeClock_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeClock_AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TimeClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0CEBC7111621C500F60B34 /* JumpIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = JumpIcon.tif; sourceTree = "<group>"; };
+		9D146A1411303B5C00975BFC /* insertIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insertIcon.png; sourceTree = "<group>"; };
+		9D17114A111DCF310094BDF6 /* DeleteKeyResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteKeyResponder.h; sourceTree = "<group>"; };
+		9D17114B111DCF310094BDF6 /* DeleteKeyResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteKeyResponder.m; sourceTree = "<group>"; };
+		9D6854740F43CC8A00462F1F /* TasksWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksWindowController.h; sourceTree = "<group>"; };
+		9D6854750F43CC8A00462F1F /* TasksWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksWindowController.m; sourceTree = "<group>"; };
+		9D6855970F47562100462F1F /* TimeStamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeStamp.h; sourceTree = "<group>"; };
+		9D6855980F47562100462F1F /* TimeStamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeStamp.m; sourceTree = "<group>"; };
+		9D8963B311E29C4200B205CF /* ReloadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReloadIcon.png; sourceTree = "<group>"; };
+		9D9044790F2E144900AC6298 /* Tasks.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tasks.xib; sourceTree = "<group>"; };
+		9D9313DB0F6C976C00C5CC3F /* Deletable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deletable.h; sourceTree = "<group>"; };
+		9D9313E40F6D569F00C5CC3F /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		9D9313E50F6D569F00C5CC3F /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		9D9313E60F6D569F00C5CC3F /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		9D9313E70F6D569F00C5CC3F /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		9D9313ED0F6D57B100C5CC3F /* AbstractTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractTask.h; sourceTree = "<group>"; };
+		9D9313EE0F6D57B100C5CC3F /* AbstractTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractTask.m; sourceTree = "<group>"; };
+		9D9316930F755B1700C5CC3F /* ReportTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportTreeNode.h; sourceTree = "<group>"; };
+		9D9316940F755B1700C5CC3F /* ReportTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportTreeNode.m; sourceTree = "<group>"; };
+		9DA790B70F50856900328525 /* AdjustTimeStampController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustTimeStampController.h; sourceTree = "<group>"; };
+		9DA790B80F50856900328525 /* AdjustTimeStampController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustTimeStampController.m; sourceTree = "<group>"; };
+		9DB1721D0F7699E000A3AD3B /* ManagedObjectContextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectContextManager.h; sourceTree = "<group>"; };
+		9DB1721E0F7699E000A3AD3B /* ManagedObjectContextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectContextManager.m; sourceTree = "<group>"; };
+		9DB175060F7C601000A3AD3B /* DurationFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DurationFormatter.h; sourceTree = "<group>"; };
+		9DB175070F7C601000A3AD3B /* DurationFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DurationFormatter.m; sourceTree = "<group>"; };
+		9DCC27D010EFC1AF0034DFDE /* DayDetailsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayDetailsWindowController.h; sourceTree = "<group>"; };
+		9DCC27D110EFC1AF0034DFDE /* DayDetailsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayDetailsWindowController.m; sourceTree = "<group>"; };
+		9DCC27D610EFCED00034DFDE /* DayDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayDetails.xib; sourceTree = "<group>"; };
+		9DD2E7120F56553300DF5443 /* Report.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Report.xib; sourceTree = "<group>"; };
+		9DD2E81C0F592BB500DF5443 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		9DD2E81D0F592BB500DF5443 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		9DD2E9260F59C70300DF5443 /* ReportWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportWindowController.h; sourceTree = "<group>"; };
+		9DD2E9270F59C70300DF5443 /* ReportWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportWindowController.m; sourceTree = "<group>"; };
+		9DF71CB310F432A0002BCFCB /* TB_Run.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = TB_Run.tiff; sourceTree = "<group>"; };
+		9DF71CB410F432A0002BCFCB /* TB_Stop.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = TB_Stop.tiff; sourceTree = "<group>"; };
+		9DFE001F1C4C716700C01B35 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D6854740F43CC8A00462F1F /* TasksWindowController.h */,
+				9D6854750F43CC8A00462F1F /* TasksWindowController.m */,
+				77C8280B06725ACE000B614F /* TimeClock_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* TimeClock_AppDelegate.m */,
+				9DA790B70F50856900328525 /* AdjustTimeStampController.h */,
+				9DA790B80F50856900328525 /* AdjustTimeStampController.m */,
+				9DD2E81C0F592BB500DF5443 /* AppController.h */,
+				9DD2E81D0F592BB500DF5443 /* AppController.m */,
+				9DD2E9260F59C70300DF5443 /* ReportWindowController.h */,
+				9DD2E9270F59C70300DF5443 /* ReportWindowController.m */,
+				9D9313DB0F6C976C00C5CC3F /* Deletable.h */,
+				9D9316930F755B1700C5CC3F /* ReportTreeNode.h */,
+				9D9316940F755B1700C5CC3F /* ReportTreeNode.m */,
+				9DB1721D0F7699E000A3AD3B /* ManagedObjectContextManager.h */,
+				9DB1721E0F7699E000A3AD3B /* ManagedObjectContextManager.m */,
+				9DB175060F7C601000A3AD3B /* DurationFormatter.h */,
+				9DB175070F7C601000A3AD3B /* DurationFormatter.m */,
+				9DCC27D010EFC1AF0034DFDE /* DayDetailsWindowController.h */,
+				9DCC27D110EFC1AF0034DFDE /* DayDetailsWindowController.m */,
+				9D17114A111DCF310094BDF6 /* DeleteKeyResponder.h */,
+				9D17114B111DCF310094BDF6 /* DeleteKeyResponder.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TimeClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TimeClock */ = {
+			isa = PBXGroup;
+			children = (
+				9DFE001F1C4C716700C01B35 /* LICENSE */,
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				9D9044790F2E144900AC6298 /* Tasks.xib */,
+				9DD2E7120F56553300DF5443 /* Report.xib */,
+				9DCC27D610EFCED00034DFDE /* DayDetails.xib */,
+			);
+			name = TimeClock;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TimeClock_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D8963B311E29C4200B205CF /* ReloadIcon.png */,
+				9D146A1411303B5C00975BFC /* insertIcon.png */,
+				9D0CEBC7111621C500F60B34 /* JumpIcon.tif */,
+				9DF71CB310F432A0002BCFCB /* TB_Run.tiff */,
+				9DF71CB410F432A0002BCFCB /* TB_Stop.tiff */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D9313ED0F6D57B100C5CC3F /* AbstractTask.h */,
+				9D9313EE0F6D57B100C5CC3F /* AbstractTask.m */,
+				9D9313E40F6D569F00C5CC3F /* Project.h */,
+				9D9313E50F6D569F00C5CC3F /* Project.m */,
+				9D9313E60F6D569F00C5CC3F /* Task.h */,
+				9D9313E70F6D569F00C5CC3F /* Task.m */,
+				9D6855970F47562100462F1F /* TimeStamp.h */,
+				9D6855980F47562100462F1F /* TimeStamp.m */,
+				770B37EC0679A11B001EADE2 /* TimeClock_DataModel.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TimeClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "TimeClock" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeClock;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TimeClock;
+			productReference = 8D1107320486CEB800E47090 /* TimeClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "TimeClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TimeClock */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TimeClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				9D90447A0F2E144900AC6298 /* Tasks.xib in Resources */,
+				9DD2E7130F56553300DF5443 /* Report.xib in Resources */,
+				9DCC27D710EFCED00034DFDE /* DayDetails.xib in Resources */,
+				9DFE00201C4C716700C01B35 /* LICENSE in Resources */,
+				9DF71CB510F432A0002BCFCB /* TB_Run.tiff in Resources */,
+				9DF71CB610F432A0002BCFCB /* TB_Stop.tiff in Resources */,
+				9D0CEBC8111621C500F60B34 /* JumpIcon.tif in Resources */,
+				9D146A1511303B5C00975BFC /* insertIcon.png in Resources */,
+				9D8963B411E29C4200B205CF /* ReloadIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* TimeClock_AppDelegate.m in Sources */,
+				770B37ED0679A11B001EADE2 /* TimeClock_DataModel.xcdatamodel in Sources */,
+				9D6854760F43CC8A00462F1F /* TasksWindowController.m in Sources */,
+				9D6855990F47562100462F1F /* TimeStamp.m in Sources */,
+				9DA790B90F50856900328525 /* AdjustTimeStampController.m in Sources */,
+				9DD2E81E0F592BB500DF5443 /* AppController.m in Sources */,
+				9DD2E9280F59C70300DF5443 /* ReportWindowController.m in Sources */,
+				9D9313E80F6D569F00C5CC3F /* Project.m in Sources */,
+				9D9313E90F6D569F00C5CC3F /* Task.m in Sources */,
+				9D9313EF0F6D57B100C5CC3F /* AbstractTask.m in Sources */,
+				9D9316950F755B1700C5CC3F /* ReportTreeNode.m in Sources */,
+				9DB1721F0F7699E000A3AD3B /* ManagedObjectContextManager.m in Sources */,
+				9DB175080F7C601000A3AD3B /* DurationFormatter.m in Sources */,
+				9DCC27D210EFC1AF0034DFDE /* DayDetailsWindowController.m in Sources */,
+				9D17114C111DCF310094BDF6 /* DeleteKeyResponder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F7446970DB6B7EA00F9684A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7446980DB6B7EA00F9684A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TimeClock_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wardruth.TimeClockApp;
+				PRODUCT_NAME = TimeClock;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TimeClock_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wardruth.TimeClockApp;
+				PRODUCT_NAME = TimeClock;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "TimeClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "TimeClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
